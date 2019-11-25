@@ -131,7 +131,7 @@ public class Device extends CordovaPlugin {
     public String getSerialNumber() {
         String serial = android.os.Build.SERIAL;
         if(serial.equals(android.os.Build.UNKNOWN) {
-            serial = android.os.Build.getSerial()
+            serial = android.os.Build.getSerial();
         }
         return serial;
     }
